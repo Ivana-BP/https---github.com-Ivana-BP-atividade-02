@@ -4,17 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de voluntários e doações</title>
+    <link rel="stylesheet" href="style.cadastro.css">
 </head>
 <body>
-    <header>
-        <h1>Área para cadastro de voluntários</h1>
-    </header>
-    <main>
-        <h2>Por que se voluntariar?</h2>
-        <p>Por ser uma oportunidade única para aplicar seus conhecimentos e seu tempo em prol do meio ambiente, da sociedade, do planeta Terra e da vida no nosso planeta.</p>
-        <h2>Quem pode se voluntariar?</h2>
-        <p>Profissionais e estudantes universitários de áreas como: Agronomia, Engenharia Ambiental, Geologia, Geografia, Ciência da Computação, Análise e Desenvolvimento de Sistemas e demais áreas do conhecimento que englobem conhecimentos sobre meio ambiente, satélites e tecnologia da informação. </p>
-        <h2>Cadastro de voluntários</h2>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Guardiões do Verde</div>
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+      <ul class="menu">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projeto.html">Projetos</a></li>
+      </ul>
+    </nav>
+
+    <h1>Área para cadastro de voluntários</h1>
+  </header>
+
+  <main>
+    <section>
+    <h2>Por que se voluntariar?</h2>
+    <p>Por ser uma oportunidade única para aplicar seus conhecimentos e seu tempo em prol do meio ambiente, da sociedade, do planeta Terra e da vida no nosso planeta.</p>
+    </section>
+
+    <section>
+    <h2>Quem pode se voluntariar?</h2>
+    <p>Profissionais e estudantes universitários de áreas como: Agronomia, Engenharia Ambiental, Geologia, Geografia, Ciência da Computação, Análise e Desenvolvimento de Sistemas e demais áreas do conhecimento que englobem meio ambiente, satélites e tecnologia da informação. 
+    </p>
+    </section>
+
+    <h2>Cadastro de voluntários</h2>
         <form>
     <fieldset>
         <legend>Informações Pessoais</legend>
@@ -86,7 +107,7 @@
     </select>
 
     <label for="cidade">Cidade:</label>
-    <input id="cidade" name="cidade" required>
+    <input type="text" id="cidade" name="cidade" required>
     </fieldset>
     <button type="submit">Enviar</button>
 </form>

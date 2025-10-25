@@ -1,4 +1,3 @@
-
 :root {
   --cor-primaria: #2e8b57;
   --cor-secundaria: #4caf50;
@@ -91,27 +90,20 @@ section h2 {
   font-size: var(--fs-l);
   color: var(--cor-primaria);
   margin-bottom: var(--esp-16);
+  text-align: center;
 }
 
 section p {
   margin-bottom: var(--esp-16);
-  text-align: justify;
+  text-align: center;
 }
 
 section img {
   display: block;
-  max-width: 100%;
+  max-width: 50%;
   margin: var(--esp-16) auto;
   border-radius: var(--esp-8);
   box-shadow: 0 2px 6px var(--cor-sombra);
-}
-
-address {
-  background: #f0f8f0;
-  padding: var(--esp-16);
-  border-left: 5px solid var(--cor-primaria);
-  border-radius: var(--esp-8);
-  font-style: normal;
 }
 
 footer {
@@ -119,7 +111,7 @@ footer {
   color: var(--cor-neutra-clara);
   text-align: center;
   padding: var(--esp-16);
-  font-size: var(--fs-s);
+  margin-top: var(--esp-32);
 }
 
 @media (max-width: 992px) {

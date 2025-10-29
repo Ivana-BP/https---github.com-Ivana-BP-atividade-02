@@ -114,6 +114,15 @@ footer {
   margin-top: var(--esp-32);
 }
 
+
+nav a.ativo {
+  background-color: var(--cor-acento);
+  color: var(--cor-neutra-clara);
+}
+
+
+
+
 @media (max-width: 992px) {
   main {
     grid-template-columns: repeat(8, 1fr);

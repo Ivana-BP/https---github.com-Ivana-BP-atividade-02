@@ -170,6 +170,35 @@ header h1 {
   background-color: var(--cor-acento-escuro);
 }
 
+
+
+/* Menu mobile aberto */
+.menu.menu-open {
+  display: flex !important;
+  flex-direction: column;
+}
+
+/* Submenu aberto via clique */
+.submenu.submenu-open {
+  display: block !important;
+}
+
+/* Desktop continua com hover/focus */
+@media (min-width: 769px) {
+  .submenu {
+    display: none;
+  }
+  .menu li:hover > .submenu,
+  .menu li:focus-within > .submenu {
+    display: block;
+  }
+}
+
+
+
+
+
+
 .menu-toggle {
   display: none;
 }

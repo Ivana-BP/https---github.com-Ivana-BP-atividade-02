@@ -121,7 +121,7 @@ section h2 {
 section p {
   font-size: var(--fs-m);
   margin-bottom: var(--esp-16);
-  text-align: justify;
+  text-align: center;
 }
 
 button {

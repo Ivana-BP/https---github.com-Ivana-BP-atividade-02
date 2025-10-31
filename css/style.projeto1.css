@@ -32,6 +32,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align: center;
 }
 
 body {
@@ -39,6 +40,7 @@ body {
   background-color: var(--cor-neutra-media);
   color: var(--cor-neutra-escura);
   line-height: 1.6;
+  text-align: center;
 }
 
 img {

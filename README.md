@@ -1,7 +1,7 @@
 Este projeto acadêmico foi desenvolvido com o objetivo de aplicar conhecimentos adquiridos na disciplina Desenvolvimento Front-End para Web (Turma 003).
 O foco principal foi a criação de uma estrutura de site utilizando HTML, CSS e JavaScript, aplicando princípios de semântica, acessibilidade e controle de versão com Git/GitHub.
 O trabalho foi baseado na construção da estrutura inicial em HTML, seguida pela aplicação de CSS e JavaScript para adicionar estilo e interatividade à página. Posteriormente, foram realizados ajustes de semântica, acessibilidade e manipulação de elementos do DOM, além da utilização de ferramentas do GitHub para controle de versão.
-Por se tratar de um projeto desenvolvido por uma estudante em formação, o código pode apresentar pontos a serem aprimorados, que estão em análise e serão ajustados gradualmente.
+Por ser um projeto desenvolvido por uma estudante em formação, o código pode apresentar pontos a serem aprimorados, que estão em análise e serão ajustados gradualmente.
 
 Objetivos do Projeto:
 Compreender e aplicar a estrutura básica de um site web;

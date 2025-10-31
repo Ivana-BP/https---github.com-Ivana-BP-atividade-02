@@ -40,7 +40,7 @@ body {
   background-color: var(--cor-neutra-media);
   color: var(--cor-neutra-escura);
   line-height: 1.6;
-  text-align: center;
+  text-align: justify;
 }
 
 img {

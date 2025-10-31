@@ -308,3 +308,29 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+.user-is-tabbing a:focus,
+.user-is-tabbing button:focus,
+.user-is-tabbing input:focus,
+.user-is-tabbing select:focus {
+  outline: 3px solid #ffb84d;
+  outline-offset: 4px;
+}
+
+body.high-contrast {
+  background: #000;
+  color: #fff;
+}
+
+body.high-contrast a {
+  color: #00ffff;
+}
+
+body.dark-mode {
+  background: #121212;
+  color: #f5f5f5;
+}
+
+body.dark-mode header,
+body.high-contrast header {
+  background: #000;
+}

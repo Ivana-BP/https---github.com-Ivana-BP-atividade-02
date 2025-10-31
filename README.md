@@ -6,7 +6,7 @@ Por ser um projeto desenvolvido por uma estudante em formação, o código pode 
 Objetivos do Projeto:
 Compreender e aplicar a estrutura básica de um site web;
 Desenvolver o layout utilizando CSS;
-Implementar interatividade com JavaScript e manipulação do DOM;
+Implementar interatividade com JavaScript e a manipulação do DOM;
 Praticar o uso de Git e GitHub, com commits e branches organizados;
 Ajustar o código para seguir boas práticas de semântica e acessibilidade;
 

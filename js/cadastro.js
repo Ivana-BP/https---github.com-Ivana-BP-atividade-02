@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 3000);
   }
 
+  
   function validarCPF(cpf) {
     const cpfRegex = /^[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}$/;
     return cpfRegex.test(cpf);

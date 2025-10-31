@@ -171,19 +171,15 @@ header h1 {
 }
 
 
-
-/* Menu mobile aberto */
 .menu.menu-open {
   display: flex !important;
   flex-direction: column;
 }
 
-/* Submenu aberto via clique */
 .submenu.submenu-open {
   display: block !important;
 }
 
-/* Desktop continua com hover/focus */
 @media (min-width: 769px) {
   .submenu {
     display: none;
@@ -193,11 +189,6 @@ header h1 {
     display: block;
   }
 }
-
-
-
-
-
 
 .menu-toggle {
   display: none;
